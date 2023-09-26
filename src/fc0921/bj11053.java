@@ -34,9 +34,11 @@ public class bj11053 {
     }
 
     public static int subsequence(int n) {
+        //아직 재귀를 돌지 않았다는 것
         if (dp[n] == 0) {
             dp[n]=1;
 
+            //모든 경우의 수 탐색
             for (int i = n-1; i >= 0 ; i--) {
                 if(num[i]<num[n]){ //현재 n번째 수보다 더 작은 수를 발견했을때(1을 더해줘야함)
                     dp[n]=Math.max(dp[n],subsequence(i)+1);
