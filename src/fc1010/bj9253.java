@@ -12,10 +12,6 @@ public class bj9253 {
         String str2 = br.readLine();
         String answer = br.readLine();
 
-//        char[] s1 = str1.toCharArray();
-//        char[] s2 = str2.toCharArray();
-//        char[] ans = answer.toCharArray();
-
         if (str1.contains(answer) && str2.contains(answer)) {
             System.out.println("YES");
         }else {
