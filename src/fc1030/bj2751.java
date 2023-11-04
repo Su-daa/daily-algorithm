@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 
+//수 정렬하기 2
 public class bj2751 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -13,7 +14,6 @@ public class bj2751 {
 
         int N = Integer.parseInt(br.readLine());
 
-        // list 계열 중 하나를 쓰면 된다.
         ArrayList<Integer> list = new ArrayList<>();
 
         for(int i = 0; i < N; i++) {

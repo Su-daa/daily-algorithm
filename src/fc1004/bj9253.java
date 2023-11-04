@@ -1,6 +1,7 @@
 package fc1004;
 import java.io.*;
 
+//스페셜 저지
 public class bj9253 {
 
     public static void main(String[] args) throws IOException {

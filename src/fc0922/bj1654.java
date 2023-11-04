@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//랜선자르기
 public class bj1654 {
     static long[] lines;
     static long right, left=1, answer;
