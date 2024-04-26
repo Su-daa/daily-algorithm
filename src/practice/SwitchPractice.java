@@ -20,10 +20,6 @@ public class SwitchPractice {
                 k = 0;
                 System.out.print('3');
                 break;
-            case '4':
-                k += 3;
-                System.out.print('4');
-                break;
             case 5:
                 k -= 10;
                 System.out.print('5');
