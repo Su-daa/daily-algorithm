@@ -1,5 +1,10 @@
 package doIt.chap01.practice;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+
 public class Q12 {
     public static void main(String[] args) {
         int n = 9;
@@ -15,6 +20,8 @@ public class Q12 {
                 System.out.printf("%3d", i * j);
             System.out.println();
         }
+
+        List<Integer> list = new ArrayList<>();
 
         /*
         for (int i = 0; i <= n; i++) {
