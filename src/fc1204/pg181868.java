@@ -6,7 +6,7 @@ import java.util.List;
 public class pg181868 {
 
     public static void main(String[] args) {
-        String str = "  programmas";
+        String str = "  programmers";
         String[] s = str.split(" ");
         String[] answer = {};
 
