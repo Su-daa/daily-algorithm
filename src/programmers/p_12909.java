@@ -3,9 +3,6 @@ package programmers;
 import java.util.Stack;
 
 public class p_12909 {
-    public static void main(String[] args) {
-        so
-    }
     boolean solution(String s) {
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < s.length(); i++) {
